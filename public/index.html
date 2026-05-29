@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba número 1 - Francisca Rojas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="brand">
+            <h1>Animes</h1>
+            <p>Santo Tomás</p>
+        </div>
+        <nav aria-label="Navegación principal" class="site-nav">
+            <ul>
+                <li><a href="https://www.tiendalego.cl/">Inicio</a></li>
+                <li><a href="https://www.crunchyroll.com/">Crunchyroll</a></li>
+                <li><a href="https://jkanime.net/">Jkanime</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <figure class="hero-figure" aria-hidden="false">
+        <img src="OIP.jpg" alt="Portada anime" class="hero-image">
+    </figure>
+
+    <main class="page-content" aria-label="Contenido principal">
+        <section class="hero card">
+            <h2>Páginas para ver o comprar productos de anime</h2>
+            <p>Vive la emoción más grande viendo los mejores animes del mundo.</p>
+        </section>
+
+        <section class="services card">
+            <h2>Nuestros servicios</h2>
+            <div class="grid services-grid">
+                <div class="service-item">Streaming de anime</div>
+                <div class="service-item">Venta de figuras</div>
+                <div class="service-item">Noticias y reseñas</div>
+            </div>
+        </section>
+
+        </article>
+            <!-- FAQ moved to bottom of the page -->
+                        <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre" required>
+
+                        <label for="apellido">Apellido</label>
+                        <input type="text" id="apellido" name="apellido" placeholder="Ingrese su apellido" required>
+
+                        <label for="email">Correo electrónico</label>
+                        <input type="email" id="email" name="email" placeholder="Ingrese su correo" required>
+
+                        <label for="telefono">Teléfono</label>
+                        <input type="tel" id="telefono" name="telefono" placeholder="Ingrese su teléfono">
+
+                        <label for="comentario">Comentario</label>
+                        <textarea id="comentario" name="comentario" placeholder="Tu comentario aquí"></textarea>
+                    </fieldset>
+                    <button type="submit" class="button">Enviar</button>
+                </form>
+            </section>
+
+            <section class="login card">
+                <h2>Login</h2>
+                <form action="/login" method="POST" class="form-card">
+                    <fieldset>
+                        <legend>Acceso</legend>
+
+                        <label for="usuario">Usuario</label>
+                        <input type="text" id="usuario" name="usuario" placeholder="Ingrese su usuario" required>
+
+                        <label for="clave">Clave</label>
+                        <input type="password" id="clave" name="clave" placeholder="Ingrese su clave" required>
+                    </fieldset>
+                    <button type="submit" class="button">Ingresar</button>
+                </form>
+                <p class="hint">🔑 Pista: admin / 1234</p>
+            </section>
+
+            <section class="idea card">
+                <h2>Registrar idea innovadora</h2>
+                <form action="/registrar-idea" method="POST" class="form-card">
+                    <fieldset>
+                        <legend>Propuesta</legend>
+
+                        <label for="nombreIdea">Nombre</label>
+                        <input type="text" id="nombreIdea" name="nombre" placeholder="Tu nombre" required>
+
+                        <label for="departamento">Departamento</label>
+                        <select id="departamento" name="departamento" required>
+                            <option value="Informática">Informática</option>
+                            <option value="Ventas">Ventas</option>
+                            <option value="RRHH">Recursos Humanos</option>
+                            <option value="Marketing">Marketing</option>
+                        </select>
+
+                        <label for="ideaDescripcion">Tu idea</label>
+                        <textarea id="ideaDescripcion" name="idea" placeholder="Describe tu idea aquí (mínimo 20 caracteres si es Informática)" rows="4" required></textarea>
+                    </fieldset>
+                    <button type="submit" class="button">Enviar idea</button>
+                </form>
+            </section>
+        </div>
+
+        <aside class="card">
+            <h2>Noticias recientes</h2>
+            <p>¡Nuevo estreno de temporada en Crunchyroll!</p>
+        </aside>
+
+        <section class="card redes-sociales">
+            <h2>Nuestras redes sociales</h2>
+            <div class="social-links">
+                <a href="https://www.instagram.com/">Instagram</a>
+                <a href="https://www.facebook.com/?locale=es_LA">Facebook</a>
+                <a href="https://x.com/?lang=es">Twitter</a>
+                <a href="https://www.whatsapp.com/?lang=es">WhatsApp</a>
+            </div>
+        </section>
+
+        <!-- FAQ section removed per request -->
+
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; 2026 - Programación Web - Francisca Rojas</p>
+    </footer>
+</body>
+
+</html>
+
